@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.left,
+.right {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    width:50%
+}
+
+.left {
+    background-color: aquamarine
+}
+
+.right {
+    background-color: rgb(170, 255, 121)
+}
+
+.splitter{
+    height: 100%;
+    width:3px;
+    box-shadow: 5px 0 2px 2px rgb(207, 101, 101);
+    background-color:black;
+    cursor:col-resize
+}
